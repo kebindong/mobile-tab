@@ -29,7 +29,7 @@ export default class MobileTab extends Component {
     items.add('reports',
   <MobileTabItem
     route={app.route('tag', { tags: 'sugar-asian-reports' })}
-    icon="fas fa-flag"
+    icon="fas fa-file-alt"
     label={app.translator.trans('acpl-mobile-tab.forum.reports')}
   />,
   89
