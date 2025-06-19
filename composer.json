@@ -1,34 +1,29 @@
 {
-    "name": "acpl/mobile-tab",
+    "name": "kebindong/mobile-tab",
+    "description": "SugarAsian fork: custom mobile tab with Reports button",
     "keywords": [
         "flarum"
     ],
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/android-com-pl/mobile-tab/issues",
-        "source": "https://github.com/android-com-pl/mobile-tab",
-        "forum": "https://discuss.flarum.org/d/28216-mobile-tab"
+    "source": "https://github.com/kebindong/mobile-tab",
+    "issues": "https://github.com/kebindong/mobile-tab/issues"
     },
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/android-com-pl/mobile-tab?sponsor=1"
-        }
-    ],
+
     "require": {
         "flarum/core": "^1.8"
     },
     "authors": [
         {
-            "name": "Rafał Całka",
-            "homepage": "https://github.com/rafaucau",
-            "role": "Developer"
+            "name": "KBD",
+            "homepage": "https://github.com/kebindong",
+            "role": "Maintainer"
         }
     ],
     "extra": {
         "flarum-extension": {
-            "title": "Mobile tab",
+            "title": "SA Mobile tab",
             "category": "theme",
             "icon": {
                 "name": "fas fa-ellipsis-h",
