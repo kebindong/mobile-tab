@@ -1,9 +1,10 @@
 acpl-mobile-tab:
   forum:
     home: "Home"
-    all_discussions: "Discussions"
+    all discussions: "Discussions"
     tags: "Tags"
     categories: "Categories"
     notifications: "Notifications"
     log_in: "Log In"
     profile: "Profile"
+    reports: "Reports"
