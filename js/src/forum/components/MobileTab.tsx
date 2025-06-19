@@ -26,8 +26,11 @@ export default class MobileTab extends Component {
     const items = new ItemList<Children>();
 
     items.add('home', <MobileTabItem route="/" icon="fas fa-home" label={app.translator.trans('acpl-mobile-tab.forum.home')} />, 100);
+    items.add('reports', <MobileTabItem route="/t/reports" icon="fas fa-flag"label={app.translator.trans('acpl-mobile-tab.forum.reports')}/>,
+      89
+    );
 
-    if (app.routes.index.path === '/all') {
+    if (app.routes.index.path === '/tags') {
       items.add(
         'all',
         <MobileTabItem route={app.route('index')} icon="fas fa-comments" label={app.translator.trans('acpl-mobile-tab.forum.all_discussions')} />,
